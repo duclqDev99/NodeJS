@@ -12,8 +12,8 @@ class BaseController {
       this[method] = this[method].bind(this);
     });
   }
-  success(res, data = null, messageKey = "success", code = ResponseCode.SUCCESS) {
-    return res.status(HttpStatus.OK).json({
+  success(res, data = null, messageKey = "success", code = ResponseCode.SUCCESS, status = HttpStatus.OK) {
+    return res.status(status).json({
       code,
       message: res.__(messageKey),
       data,
