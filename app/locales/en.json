@@ -1,0 +1,5 @@
+{
+    "user": {
+        "get_list_success": "User list fetched successfully"
+    }
+}

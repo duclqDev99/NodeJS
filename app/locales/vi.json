@@ -1,0 +1,17 @@
+{
+    "user": {
+      "get_list_success": "Lấy danh sách người dùng thành công",
+      "create_success": "Tạo người dùng thành công",
+      "not_found": "Không tìm thấy người dùng"
+    },
+    "auth": {
+      "login_success": "Đăng nhập thành công",
+      "unauthorized": "Bạn không có quyền truy cập"
+    },
+    "common": {
+      "internal_error": "Lỗi hệ thống",
+      "bad_request": "Yêu cầu không hợp lệ",
+      "success": "Thành công",
+      "created": "Tạo mới thành công"
+    }
+  }
